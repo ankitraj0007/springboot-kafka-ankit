@@ -6,8 +6,9 @@ Consumer -- use @KafkaListener(topics = "", groupId = "") to subscribe to topic 
 
 # download kafka and install
 # run below commands to bring up the kafka server, broker, topic, producer and consumer.
-# these commands are for windows machine. change accordingly for mac/linux
+these commands are for windows machine. change accordingly for mac/linux  
 cd to Download\kafka  
+
 # Start the ZooKeeper service
 $ bin\windows\zookeeper-server-start.bat config\zookeeper.properties  
 
